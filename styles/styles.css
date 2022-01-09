@@ -1,0 +1,26 @@
+html {
+	background-color:#008b8b;
+}
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #4dd179;
+	padding: 150px 150px 150px 150px;
+	border: 5px solid white;
+}
+ img {
+	 margin: 0 auto;
+	 width: 600px;
+ }
+h1 {
+	color: white;
+	font-family: 'Caveat', cursive;
+    position: absolute;
+    font-size: 50px;
+    transform-origin: 0 0;
+	transform: scalex(0.5);
+	text-transform: uppercase;
+    margin: 0 auto;
+	margin-left: 193px;
+	margin-top: -245px;
+    }
