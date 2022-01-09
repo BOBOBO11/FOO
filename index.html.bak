@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Сайт Человека-паука</title>
+		<link rel="stylesheet" href="styles/styles.css">
+		</head>
+	<body>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+	<div class="image">
+    <img src="images/spider.jpg">
+	<h1 id="my"></h1> 
+	</div>
+		<p><b>Ваше имя:</b><br>
+   <input id="first_name" size="15" maxlength="10">
+   <button>Получить поздравление</button>
+  </p>
+		<script>
+		const button = document.querySelector('button');
+		button.onclick = function() {
+		var gay = document.getElementById('first_name').value;
+		document.getElementById("my").innerHTML = gay;
+		}
+		</script>
+		</body>
+</html>
+	
